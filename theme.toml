@@ -5,7 +5,7 @@ description = "A port of moonwalk to Hugo."
 
 homepage = "https://github.com/ArkhamCookie/moonwalk-hugo"
 
-# demosite = "https://arkhamcookie.github.io/moonwalk-hugo"
+demosite = "https://arkhamcookie.github.io/moonwalk-hugo"
 
 [author]
 	name = "ArkhamCookie"
