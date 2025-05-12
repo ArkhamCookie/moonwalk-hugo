@@ -2,10 +2,6 @@ baseURL = 'https://arkhamcookie.github.io/moonwalk/'
 languageCode = 'en-US'
 title = 'A demo site for the moonwalk theme.'
 
-[caches]
-	[caches.image]
-		dir = ':cacheDir/images'
-
 [menus]
   [[menus.main]]
     name = 'Home'
