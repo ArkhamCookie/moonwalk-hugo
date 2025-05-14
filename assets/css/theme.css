@@ -52,29 +52,29 @@ html[data-theme=light] html, html[data-theme=light] body {
 
 /* MAIN COLORS */
 html, body {
-  background-color: var(--bg);
-  color: var(--text);
+	background-color: var(--bg);
+	color: var(--text);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--headings);
+	color: var(--headings);
 }
 
 p, strong, b, em, small, li, hr, table, figcaption {
-  color: var(--text);
+	color: var(--text);
 }
 
 blockquote {
-  background-color: var(--bg-secondary);
-  border: 1px var(--border) solid;
+	background-color: var(--bg-secondary);
+	border: 1px var(--border) solid;
 }
 
 a {
-  color: var(--links);
+	color: var(--links);
 }
 
 *:target {
-  background-color: var(--bg-secondary);
+	background-color: var(--bg-secondary);
 }
 
 .dashed {
@@ -114,29 +114,29 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 250ms !important;
-  transition-delay: 0 !important;
+	transition: all 250ms !important;
+	transition-delay: 0 !important;
 }
 
 /* TOGGLE BUTTON */
 .theme-toggle {
-  color: var(--text);
-  background-color: transparent;
-  padding: 4px;
-  cursor: pointer;
-  margin: 1em;
-  position: fixed;
-  right: 0;
-  top: 0;
-  border: 2px transparent solid;
-  outline: none;
+	color: var(--text);
+	background-color: transparent;
+	padding: 4px;
+	cursor: pointer;
+	margin: 1em;
+	position: fixed;
+	right: 0;
+	top: 0;
+	border: 2px transparent solid;
+	outline: none;
 }
 
 .theme-toggle:hover {
-  color: var(--links);
-  outline: none;
+	color: var(--links);
+	outline: none;
 }
 
 .theme-toggle:focus {
-  outline: none;
+	outline: none;
 }
