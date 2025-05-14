@@ -140,11 +140,9 @@ p code, li code {
 
 .tag {
   font-family: "Roboto Mono", "Courier New", monospace;
-  color: var(--text-secondary);
   padding: 0.4em 1em;
   margin-right: 0.5em;
   border-radius: 1em;
-  background-color: var(--bg-secondary);
   font-size: 0.7em;
   font-weight: bold;
   text-transform: lowercase;
