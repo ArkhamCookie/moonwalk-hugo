@@ -1,149 +1,149 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 html {
-  height: 100%;
+	height: 100%;
 }
 
 body {
-  font-family: "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
-  font-size: 1rem;
-  line-height: 2;
-  margin: 0;
-  min-height: 100%;
+	font-family: "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
+	font-size: 1rem;
+	line-height: 2;
+	margin: 0;
+	min-height: 100%;
 }
 
 pre, code {
-  font-family: "Roboto Mono", "Courier New", monospace;
-  font-size: 0.9rem;
+	font-family: "Roboto Mono", "Courier New", monospace;
+	font-size: 0.9rem;
 }
 
 h2, h3, h4, h5 {
-  margin-top: 1.5em;
+	margin-top: 1.5em;
 }
 
 hr {
-  margin: 1em 0;
+	margin: 1em 0;
 }
 
 hr.page-break {
-  text-align: center;
-  border: 0;
+	text-align: center;
+	border: 0;
 }
 hr.page-break:before {
-  content: "-----";
+	content: "-----";
 }
 hr.page-break:after {
-  content: attr(data-content) "-----";
+	content: attr(data-content) "-----";
 }
 
 p {
-  margin: 1em 0;
+	margin: 1em 0;
 }
 
 li {
-  margin: 0.4em 0;
+	margin: 0.4em 0;
 }
 
 .w {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 4em 2em;
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 4em 2em;
 }
 
 table, th, td {
-  width: 100%;
-  border: thin solid black;
-  border-collapse: collapse;
-  padding: 0.4em;
+	width: 100%;
+	border: thin solid black;
+	border-collapse: collapse;
+	padding: 0.4em;
 }
 
 div.highlighter-rouge pre code, pre code.highlighter-rouge {
-  display: block;
-  overflow-x: auto;
-  padding: 1em;
+	display: block;
+	overflow-x: auto;
+	padding: 1em;
 }
 
 blockquote {
-  font-style: italic;
-  border: thin solid black;
-  padding: 1em;
+	font-style: italic;
+	border: thin solid black;
+	padding: 1em;
 }
 blockquote p {
-  margin: 0;
+	margin: 0;
 }
 
 img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
 }
 
 .highlight, pre code, blockquote {
-  border-radius: 0.5em;
+	border-radius: 0.5em;
 }
 
 .dashed {
-  margin: 0.5em 0;
+	margin: 0.5em 0;
 }
 
 mark {
-  padding: 0.4em;
-  font-size: 0.6em;
-  letter-spacing: 1px;
+	padding: 0.4em;
+	font-size: 0.6em;
+	letter-spacing: 1px;
 }
 
 .post-date {
-  margin-top: 1rem;
-  font-size: 0.7em;
-  font-family: "Roboto Mono", "Courier New", monospace;
+	margin-top: 1rem;
+	font-size: 0.7em;
+	font-family: "Roboto Mono", "Courier New", monospace;
 }
 
 .home-date {
-  font-family: "Roboto Mono", "Courier New", monospace;
+	font-family: "Roboto Mono", "Courier New", monospace;
 }
 
 .post-list-item a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .text-bold {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .text-upcase {
-  text-transform: uppercase;
-  letter-spacing: 1px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 p code, li code {
-  padding: 0.2rem;
-  font-weight: bold;
+	padding: 0.2rem;
+	font-weight: bold;
 }
 
 .post-title {
-  margin-bottom: -1.5rem;
+	margin-bottom: -1.5rem;
 }
 
 .project-title {
-  margin-bottom: 0.8rem;
+	margin-bottom: 0.8rem;
 }
 
 .credits {
-  font-size: 0.8em;
-  margin: 8em auto -4em auto;
-  text-align: center;
+	font-size: 0.8em;
+	margin: 8em auto -4em auto;
+	text-align: center;
 }
 .credits a {
-  text-decoration: none;
-  font-weight: bold;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .tag {
-  font-family: "Roboto Mono", "Courier New", monospace;
-  padding: 0.4em 1em;
-  margin-right: 0.5em;
-  border-radius: 1em;
-  font-size: 0.7em;
-  font-weight: bold;
-  text-transform: lowercase;
+	font-family: "Roboto Mono", "Courier New", monospace;
+	padding: 0.4em 1em;
+	margin-right: 0.5em;
+	border-radius: 1em;
+	font-size: 0.7em;
+	font-weight: bold;
+	text-transform: lowercase;
 }
