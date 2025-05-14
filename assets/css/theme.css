@@ -1,0 +1,142 @@
+/* MAIN VARIABLES */
+html[data-theme=dark] html, html[data-theme=dark] body {
+  --headings: #74c0fc;
+  --links: #91A7FF;
+  --highlight: #41C7C7;
+  --bg: #1f242A;
+  --bg-secondary: #323945;
+  --text: #adb5bd;
+  --text-secondary: #9CA3AF;
+  --code-text: #91A7FF;
+  --share-text: #C4C4C4;
+}
+
+html[data-theme=light] html, html[data-theme=light] body {
+  --bg: #FFF;
+  --bg-secondary: #f3f4f6;
+  --headings: #1e293b;
+  --text: #374151;
+  --text-secondary: #6b7280;
+  --links: #6366f1;
+  --highlight: #FFECB2;
+  --code-text: #9D174D;
+  --share-text: #999;
+}
+
+@media (prefers-color-scheme: dark) {
+  body[data-theme=auto] html, body[data-theme=auto] body {
+    --headings: #74c0fc;
+    --links: #91A7FF;
+    --highlight: #41C7C7;
+    --bg: #1f242A;
+    --bg-secondary: #323945;
+    --text: #adb5bd;
+    --text-secondary: #9CA3AF;
+    --code-text: #91A7FF;
+    --share-text: #C4C4C4;
+  }
+}
+@media (prefers-color-scheme: light) {
+  body[data-theme=auto] html, body[data-theme=auto] body {
+    --bg: #FFF;
+    --bg-secondary: #f3f4f6;
+    --headings: #1e293b;
+    --text: #374151;
+    --text-secondary: #6b7280;
+    --links: #6366f1;
+    --highlight: #FFECB2;
+    --code-text: #9D174D;
+    --share-text: #999;
+  }
+}
+
+/* MAIN COLORS */
+html, body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--headings);
+}
+
+p, strong, b, em, small, li, hr, table, figcaption {
+  color: var(--text);
+}
+
+blockquote {
+  background-color: var(--bg-secondary);
+  border: 1px var(--border) solid;
+}
+
+a {
+  color: var(--links);
+}
+
+*:target {
+  background-color: var(--bg-secondary);
+}
+
+.dashed {
+	border-top: 1px var(--text) dashed;
+}
+
+mark {
+	background-color: var(--highlight);
+}
+
+.post-date {
+	color: var(--text-secondary);
+}
+
+p code, li code {
+	background-color: var(--bg-secondary);
+	color: var(--code-text);
+}
+
+.credits {
+	color: var(--text);
+}
+.credits a {
+	color: var(--text);
+}
+.credits a:hover {
+	color: var(--links);
+}
+
+.tag {
+	color: var(--text-secondary);
+	background-color: var(--bg-secondary);
+}
+
+/* TRANSITION */
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 250ms !important;
+  transition-delay: 0 !important;
+}
+
+/* TOGGLE BUTTON */
+.theme-toggle {
+  color: var(--text);
+  background-color: transparent;
+  padding: 4px;
+  cursor: pointer;
+  margin: 1em;
+  position: fixed;
+  right: 0;
+  top: 0;
+  border: 2px transparent solid;
+  outline: none;
+}
+
+.theme-toggle:hover {
+  color: var(--links);
+  outline: none;
+}
+
+.theme-toggle:focus {
+  outline: none;
+}
