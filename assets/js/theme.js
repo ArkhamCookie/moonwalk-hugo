@@ -5,8 +5,6 @@ const systemThemeSetting = window.matchMedia("(prefers-color-scheme: light)")
 // Get theme toggle button
 const themeToggleBtn = document.querySelector(".theme-toggle")
 
-console.log(themeToggleBtn)
-
 function calculateSettingAsThemeString(localStorageTheme, systemThemeSetting) {
 	if (localStorageTheme !== null) {
 		return localStorageTheme
