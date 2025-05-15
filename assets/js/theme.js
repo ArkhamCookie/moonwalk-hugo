@@ -33,6 +33,4 @@ themeToggleBtn.addEventListener("click", () => {
 	localStorage.setItem("theme", newTheme)
 
 	currentTheme = newTheme
-
-	console.log("switched theme to", currentTheme)
 })
