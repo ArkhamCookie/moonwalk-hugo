@@ -27,6 +27,11 @@ function calculateSettingAsThemeString(localStorageTheme, systemThemeSetting) {
 // Get current theme
 let currentTheme = calculateSettingAsThemeString(localStorageTheme, systemThemeSetting)
 
+// Set current theme on load
+window.onload = function() {
+	document.querySelector("html").setAttribute("data-theme", currentTheme)
+}
+
 themeToggleBtn.addEventListener("click", () => {
 	let newTheme
 
