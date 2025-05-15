@@ -1,52 +1,52 @@
 /* MAIN VARIABLES */
 html[data-theme=dark] html, html[data-theme=dark] body {
-  --headings: #74c0fc;
-  --links: #91A7FF;
-  --highlight: #41C7C7;
-  --bg: #1f242A;
-  --bg-secondary: #323945;
-  --text: #adb5bd;
-  --text-secondary: #9CA3AF;
-  --code-text: #91A7FF;
-  --share-text: #C4C4C4;
+	--headings: #74c0fc;
+	--links: #91A7FF;
+	--highlight: #41C7C7;
+	--bg: #1f242A;
+	--bg-secondary: #323945;
+	--text: #adb5bd;
+	--text-secondary: #9CA3AF;
+	--code-text: #91A7FF;
+	--share-text: #C4C4C4;
 }
 
 html[data-theme=light] html, html[data-theme=light] body {
-  --bg: #FFF;
-  --bg-secondary: #f3f4f6;
-  --headings: #1e293b;
-  --text: #374151;
-  --text-secondary: #6b7280;
-  --links: #6366f1;
-  --highlight: #FFECB2;
-  --code-text: #9D174D;
-  --share-text: #999;
+	--bg: #FFF;
+	--bg-secondary: #f3f4f6;
+	--headings: #1e293b;
+	--text: #374151;
+	--text-secondary: #6b7280;
+	--links: #6366f1;
+	--highlight: #FFECB2;
+	--code-text: #9D174D;
+	--share-text: #999;
 }
 
 @media (prefers-color-scheme: dark) {
   body[data-theme=auto] html, body[data-theme=auto] body {
-    --headings: #74c0fc;
-    --links: #91A7FF;
-    --highlight: #41C7C7;
-    --bg: #1f242A;
-    --bg-secondary: #323945;
-    --text: #adb5bd;
-    --text-secondary: #9CA3AF;
-    --code-text: #91A7FF;
-    --share-text: #C4C4C4;
+	--headings: #74c0fc;
+	--links: #91A7FF;
+	--highlight: #41C7C7;
+	--bg: #1f242A;
+	--bg-secondary: #323945;
+	--text: #adb5bd;
+	--text-secondary: #9CA3AF;
+	--code-text: #91A7FF;
+	--share-text: #C4C4C4;
   }
 }
 @media (prefers-color-scheme: light) {
   body[data-theme=auto] html, body[data-theme=auto] body {
-    --bg: #FFF;
-    --bg-secondary: #f3f4f6;
-    --headings: #1e293b;
-    --text: #374151;
-    --text-secondary: #6b7280;
-    --links: #6366f1;
-    --highlight: #FFECB2;
-    --code-text: #9D174D;
-    --share-text: #999;
+	--bg: #FFF;
+	--bg-secondary: #f3f4f6;
+	--headings: #1e293b;
+	--text: #374151;
+	--text-secondary: #6b7280;
+	--links: #6366f1;
+	--highlight: #FFECB2;
+	--code-text: #9D174D;
+	--share-text: #999;
   }
 }
 
