@@ -109,6 +109,14 @@ p code, li code {
 	background-color: var(--bg-secondary);
 }
 
+.card {
+	border: 1px var(--text) solid;
+	background-color: var(--bg-secondary);
+}
+.card .header {
+	color: (--links)
+}
+
 /* TRANSITION */
 html.transition,
 html.transition *,
