@@ -23,9 +23,13 @@ title = 'A demo site for the moonwalk theme.'
     extended = false
     min = '0.146.0'
 
+[outputs]
+	home = ['html', 'rss']
+
 [params]
   [params.author]
     name = 'ArkhamCookie'
+		email = 'moonwalk@mail.arkhamcookie.com'
 	[params.social]
 		github = 'https://github.com/ArkhamCookie'
 		mastadon = 'https://tilde.zone/@ArkhamCookie'
