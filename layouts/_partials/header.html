@@ -1,2 +1,4 @@
-<h1>{{ site.Title }}</h1>
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<div class="dashed"></div>
+<h1>{{ site.Title }}</h1>
+<p>{{ .Content }}</p>
