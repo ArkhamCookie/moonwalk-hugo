@@ -1,10 +1,19 @@
 {{ define "main" }}
+	{{ $dateHuman := .Date | time.Format ":date_long" }}
+
+	<a href="{{ site.BaseURL }}">go back...</a>
+
   <h1 class="post-title">{{ .Title }}</h1>
 
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+	<p class="post-date text-bold">
+		{{ .Page.Param "author" }}
+		/
+  	{{ .Date | time.Format ":date_long" }}
+	</p>
+
+	{{ range $i, $e := .Param "tags" }}
+		<span class="tag">{{ $e }}</span>
+	{{ end }}
 
   {{ .Content }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
 {{ end }}
