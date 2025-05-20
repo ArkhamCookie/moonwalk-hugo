@@ -1,6 +1,6 @@
 baseURL = 'https://arkhamcookie.github.io/moonwalk/'
 languageCode = 'en-US'
-title = 'A demo site for the moonwalk theme.'
+title = 'Moonwalk'
 
 [menus]
   [[menus.main]]
