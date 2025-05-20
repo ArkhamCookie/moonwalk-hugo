@@ -11,6 +11,10 @@ title = 'Moonwalk'
     name = 'blog'
     pageRef = '/blog'
 
+	[[menus.main]]
+		name = 'website'
+		url = 'https://arkhamcookie.com'
+
 [module]
   [module.hugoVersion]
     extended = false
