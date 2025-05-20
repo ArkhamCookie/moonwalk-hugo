@@ -3,11 +3,6 @@
 		{{ partial "header.html" . }}
 	</header>
 
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
-
 	<footer>
 		{{ partial "footer.html" . }}
 	</footer>
