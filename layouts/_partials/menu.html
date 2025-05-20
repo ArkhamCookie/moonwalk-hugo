@@ -2,9 +2,7 @@
 {{- $menuID := .menuID }}
 
 {{- with index site.Menus $menuID }}
-	<nav>
-		<ul class="horizontal-list">
-			{{- partial "inline/menu.html" (dict "page" $page "menuEntries" .) }}
-		</ul>
-	</nav>
+	<ul class="horizontal-list">
+		{{- partial "inline/menu.html" (dict "page" $page "menuEntries" .) }}
+	</ul>
 {{- end }}
