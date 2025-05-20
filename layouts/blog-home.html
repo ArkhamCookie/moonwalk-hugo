@@ -1,4 +1,6 @@
 {{ define "main" }}
+	{{ $p := where site.RegularPages "Type" "posts" }}
+
 	<a href="{{ site.BaseURL }}">go back...</a>
 
 	<header>
@@ -6,6 +8,15 @@
 	</header>
 
 	<ul>
-
+		{{ range $p }}
+			<li>
+				<span class="home-date">
+					{{ .Date | time.Format ":date_short" }}»
+				</span>
+				<a href="{{ .Permalink }}">
+					{{ .Title }}
+				</a>
+			</li>
+		{{- end }}
 	</ul>
 {{ end }}
