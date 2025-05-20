@@ -6,12 +6,14 @@ title = 'Moonwalk'
   [[menus.main]]
     name = 'about'
     pageRef = '/about'
-    weight = 10
 
   [[menus.main]]
     name = 'blog'
     pageRef = '/blog'
-    weight = 20
+
+	[[menus.main]]
+		name = 'website'
+		url = 'https://arkhamcookie.com'
 
 [module]
   [module.hugoVersion]
