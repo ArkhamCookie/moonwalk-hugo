@@ -4,8 +4,10 @@
   {{ partial "head.html" . }}
 </head>
 <body>
-  <main>
-    {{ block "main" . }}{{ end }}
+	<main>
+		<div class="w">
+    	{{ block "main" . }}{{ end }}
+		</div>
   </main>
 	<button class="theme-toggle">
 		<svg viewBox="0 0 32 32" width="24" height="24" fill="currentcolor">
