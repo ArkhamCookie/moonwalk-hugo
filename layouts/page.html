@@ -11,5 +11,9 @@
   	{{ .Date | time.Format ":date_long" }}
 	</p>
 
+	{{ range $i, $e := .Param "tags" }}
+		<span class="tag">{{ $e }}</span>
+	{{ end }}
+
   {{ .Content }}
 {{ end }}
