@@ -21,10 +21,9 @@
 				{{- end }}
 			{{- end -}}
 		>{{ $name }}</a>
-		{{- with .Children }}
-			<ul>
-				{{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
-			</ul>
-		{{- end }}
 	</li>
 {{- end }}
+
+<li>
+	<a href="{{ .Site.Params.Social.website }}">website</a>
+</li>

@@ -4,19 +4,14 @@ title = 'Moonwalk'
 
 [menus]
   [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
+    name = 'about'
+    pageRef = '/about'
     weight = 10
 
   [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
+    name = 'blog'
+    pageRef = '/blog'
     weight = 20
-
-  [[menus.main]]
-    name = 'Tags'
-    pageRef = '/tags'
-    weight = 30
 
 [module]
   [module.hugoVersion]
@@ -29,3 +24,4 @@ title = 'Moonwalk'
 	[params.social]
 		github = 'https://github.com/ArkhamCookie'
 		mastadon = 'https://tilde.zone/@ArkhamCookie'
+		website = 'https://arkhamcookie.com'

@@ -1,6 +1,9 @@
 {{ define "main" }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+	<header>
+		{{ partial "header.html" . }}
+	</header>
+
+	<footer>
+		{{ partial "footer.html" . }}
+	</footer>
 {{ end }}
