@@ -3,6 +3,18 @@
 		{{ partial "header.html" . }}
 	</header>
 
+
+	<h2>Blog</h2>
+
+	<ul>
+		{{ range where .Site.RegularPages "Type" "posts" }}
+			<li class="post-list-item">
+				{{ .Date | time.Format "2006-01-02" }}»
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+			</li>
+		{{ end }}
+	</ul>
+
 	<footer>
 		{{ partial "footer.html" . }}
 	</footer>
