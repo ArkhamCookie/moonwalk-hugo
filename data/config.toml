@@ -1,2 +1,4 @@
 [home]
+	projects = true
+	blog = true
 	old_project = true
