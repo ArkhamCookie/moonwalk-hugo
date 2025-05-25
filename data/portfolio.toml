@@ -2,8 +2,8 @@
 	[projects.1]
 		title = 'Project 1'
 		url = 'https://example.com'
-		description = 'An example project'
+		description = 'This is an example project, configured in `data/portfolio.toml'
 	[projects.2]
 		title = 'Project 2'
 		url = 'https://example.com'
-		description = 'Another example project'
+		description = 'Projects are shown in card layout'
