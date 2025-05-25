@@ -1,9 +1,15 @@
 author = 'ArkhamCookie'
 
 [home]
+	date_format = '2006-01-02'
 	portfolio = true
 	blog = true
 	old_project = true
+
+[blog]
+	date_format = '2006-01-02'
+	[blog.posts]
+		date_format = ':date_long'
 
 [socials]
 	[socials.1]
