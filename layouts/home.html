@@ -5,6 +5,21 @@
 
 	<h2>Portfolio</h2>
 
+	<ul class="horizontal-list">
+		{{ $projects := index .Site.Data.portfolio.projects }}
+		{{ range $projects}}
+			<li class="card">
+				<a href="{{ .url }}">
+					<span class="header">{{ .title }}</span>
+					<hr>
+					<p class="body">
+						{{ .description }}
+					</p>
+				</a>
+			</li>
+		{{ end }}
+	</ul>
+
 	<footer>
 		{{ partial "footer.html" . }}
 	</footer>
