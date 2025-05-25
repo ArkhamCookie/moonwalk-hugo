@@ -11,17 +11,17 @@
 		title = 'Project 3'
 		url = 'https://example.com'
 		description = 'You can control visibility from the `data/config.toml` file'
-	[project.4]
+	[projects.4]
 		title = 'Project 4'
 		url = 'https://example.com'
 		description = 'This project uses highlight markup, configured in `data/config.toml`'
 		wip = true
-	[project.5]
+	[projects.5]
 		title = 'Project 5'
 		url = 'https://example.com'
 		description = 'Moonwalk also has horizontal list (used in header and footer)'
 		wip = true
-	[project.6]
+	[projects.6]
 		title = 'Project 6'
 		url = 'https://example.com'
 		description = 'It also has a scalable vertical list (in case you need it)'
