@@ -26,6 +26,9 @@ ul.horizontal-list li a {
 .card hr {
 	margin: 0.5em 0;
 }
+.card .body {
+	font-size: 0.8em;
+}
 
 /* Responsive cards - one colum layout on small screens */
 @media screen and (max-width: 600px) {
