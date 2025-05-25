@@ -3,17 +3,14 @@
 		title = 'Project 1'
 		url = 'https://example.com'
 		description = 'This is an example project, configured in `data/portfolio.toml`'
-		wip = false
 	[projects.2]
 		title = 'Project 2'
 		url = 'https://example.com'
 		description = 'Projects are shown in card layout'
-		wip = false
 	[projects.3]
 		title = 'Project 3'
 		url = 'https://example.com'
 		description = 'You can control visibility from the `data/config.toml` file'
-		wip = false
 	[project.4]
 		title = 'Project 4'
 		url = 'https://example.com'
@@ -28,4 +25,3 @@
 		title = 'Project 6'
 		url = 'https://example.com'
 		description = 'It also has a scalable vertical list (in case you need it)'
-		wip = false
