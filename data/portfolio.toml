@@ -7,3 +7,19 @@
 		title = 'Project 2'
 		url = 'https://example.com'
 		description = 'Projects are shown in card layout'
+	[projects.3]
+		title = 'Project 3'
+		url = 'https://example.com'
+		description = 'You can control visibility from the `data/config.toml` file'
+	[project.4]
+		title = 'Project 4'
+		url = 'https://example.com'
+		description = 'This project uses highlight markup, configured in `data/config.toml`'
+	[project.5]
+		title = 'Project 5'
+		url = 'https://example.com'
+		description = 'Moonwalk also has horizontal list (used in header and footer)'
+	[project.6]
+		title = 'Project 6'
+		url = 'https://example.com'
+		description = 'It also has a scalable vertical list (in case you need it)'
