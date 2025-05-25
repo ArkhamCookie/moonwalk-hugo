@@ -1,9 +1,9 @@
 [projects]
 	[projects.1]
 		title = 'Project 1'
-		url = 'https://arkhamcookie.github.io/projects/project-1'
+		url = 'https://example.com'
 		description = 'An example project'
 	[projects.2]
 		title = 'Project 2'
-		url = 'https://arkhamcookie.github.io/projects/project-2'
+		url = 'https://example.com'
 		description = 'Another example project'
