@@ -23,7 +23,3 @@ title = 'Moonwalk'
 [params]
   [params.author]
     name = 'ArkhamCookie'
-	[params.social]
-		github = 'https://github.com/ArkhamCookie'
-		mastadon = 'https://tilde.zone/@ArkhamCookie'
-		website = 'https://arkhamcookie.com'

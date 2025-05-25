@@ -2,3 +2,14 @@
 	portfolio = true
 	blog = true
 	old_project = true
+
+[socials]
+	[socials.1]
+		title = 'github'
+		url = 'https://github.com/ArkhamCookie'
+	[socials.2]
+		title = 'mastadon'
+		url = 'https://tilde.zone/@ArkhamCookie'
+	[socials.3]
+		title = 'website'
+		url = 'https://arkhamcookie.com'
