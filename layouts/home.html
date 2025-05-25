@@ -31,9 +31,10 @@
 		<h2>Blog</h2>
 
 		<ul>
+			{{ $timeformat := .Site.Data.config.home.date_format }}
 			{{ range where .Site.RegularPages "Type" "posts" }}
 				<li class="post-list-item">
-					{{ .Date | time.Format "2006-01-02" }}»
+					{{ .Date | time.Format $timeformat }}»
 					<a href="{{ .Permalink }}">{{ .Title }}</a>
 				</li>
 			{{ end }}

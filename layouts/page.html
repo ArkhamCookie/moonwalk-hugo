@@ -1,5 +1,7 @@
 {{ define "main" }}
-	{{ $dateHuman := .Date | time.Format ":date_long" }}
+
+	{{ $timeformat := .Site.Data.config.blog.posts.date_format }}
+	{{ $dateHuman := .Date | time.Format $timeformat }}
 
 	<a href="{{ site.BaseURL }}">go back...</a>
 
@@ -8,7 +10,7 @@
 	<p class="post-date text-bold">
 		{{ .Page.Param "author" }}
 		/
-  	{{ .Date | time.Format ":date_long" }}
+  	{{ .Date | time.Format $timeformat }}
 	</p>
 
 	{{ range $i, $e := .Param "tags" }}
