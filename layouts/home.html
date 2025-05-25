@@ -6,8 +6,7 @@
 	<h2>Portfolio</h2>
 
 	<ul class="horizontal-list">
-		{{ $projects := index .Site.Data.portfolio.projects }}
-		{{ range $projects}}
+		{{ range index .Site.Data.portfolio.projects }}
 			<li class="card">
 				<a href="{{ .url }}">
 					<span class="header">{{ .title }}</span>
