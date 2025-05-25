@@ -11,7 +11,7 @@
 		{{ range $p }}
 			<li>
 				<span class="home-date">
-					{{ .Date | time.Format ":date_short" }}»
+					{{ .Date | time.Format "2006-01-02" }}»
 				</span>
 				<a href="{{ .Permalink }}">
 					{{ .Title }}
