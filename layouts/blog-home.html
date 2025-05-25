@@ -8,10 +8,11 @@
 	</header>
 
 	<ul>
+		{{ $timeformat := .Site.Data.config.blog.date_format }}
 		{{ range $p }}
 			<li>
 				<span class="home-date">
-					{{ .Date | time.Format "2006-01-02" }}»
+					{{ .Date | time.Format $timeformat }}»
 				</span>
 				<a href="{{ .Permalink }}">
 					{{ .Title }}

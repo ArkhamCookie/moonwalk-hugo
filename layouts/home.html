@@ -3,36 +3,43 @@
 		{{ partial "header.html" . }}
 	</header>
 
-	<h2>Portfolio</h2>
+	{{ $portfolio := .Site.Data.config.home.portfolio }}
+	{{ if eq $portfolio true}}
+		<h2>Portfolio</h2>
 
-	<ul class="horizontal-list">
-		{{ range index .Site.Data.portfolio.projects }}
-			<li class="card">
-				<a href="{{ .url }}">
-					<span class="header">
-						{{ .title }}
-						{{ if eq .wip true }}
-							<mark>WIP</mark>
-						{{ end }}
-					</span>
-					<hr>
-					<p class="body">
-						{{ .description }}
-					</p>
-				</a>
-		{{ end }}
-	</ul>
+		<ul class="horizontal-list">
+			{{ range index .Site.Data.portfolio.projects }}
+				<li class="card">
+					<a href="{{ .url }}">
+						<span class="header">
+							{{ .title }}
+							{{ if eq .wip true }}
+								<mark>WIP</mark>
+							{{ end }}
+						</span>
+						<hr>
+						<p class="body">
+							{{ .description }}
+						</p>
+					</a>
+			{{ end }}
+		</ul>
+	{{ end }}
 
-	<h2>Blog</h2>
+	{{ $blog := .Site.Data.config.home.blog }}
+	{{ if eq $blog true }}
+		<h2>Blog</h2>
 
-	<ul>
-		{{ range where .Site.RegularPages "Type" "posts" }}
-			<li class="post-list-item">
-				{{ .Date | time.Format "2006-01-02" }}»
-				<a href="{{ .Permalink }}">{{ .Title }}</a>
-			</li>
-		{{ end }}
-	</ul>
+		<ul>
+			{{ $timeformat := .Site.Data.config.home.date_format }}
+			{{ range where .Site.RegularPages "Type" "posts" }}
+				<li class="post-list-item">
+					{{ .Date | time.Format $timeformat }}»
+					<a href="{{ .Permalink }}">{{ .Title }}</a>
+				</li>
+			{{ end }}
+		</ul>
+	{{ end }}
 
 	{{ $oldProjects := .Site.Data.config.home.old_project }}
 	{{ if eq $oldProjects true }}
