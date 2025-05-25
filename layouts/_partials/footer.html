@@ -3,10 +3,12 @@
 	<li>
 		<a href="{{ .Site.BaseURL }}">homepage</a>
 	</li>
-	<li>
-		<a href="{{ .Site.Params.Social.mastadon }}">mastadon</a>
-	</li>
-	<li>
-		<a href="{{ .Site.Params.Social.github }}">github</a>
-	</li>
+
+	{{/*  {{ .Site.Data.config.socials }}  */}}
+
+	{{ range index .Site.Data.config.socials }}
+		<li>
+			<a href="{{ .url }}">{{ .title }}</a>
+		</li>
+	{{ end }}
 </ul>
