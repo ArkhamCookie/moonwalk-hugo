@@ -3,25 +3,28 @@
 		{{ partial "header.html" . }}
 	</header>
 
-	<h2>Portfolio</h2>
+	{{ $portfolio := .Site.Data.config.home.portfolio }}
+	{{ if eq $portfolio true}}
+		<h2>Portfolio</h2>
 
-	<ul class="horizontal-list">
-		{{ range index .Site.Data.portfolio.projects }}
-			<li class="card">
-				<a href="{{ .url }}">
-					<span class="header">
-						{{ .title }}
-						{{ if eq .wip true }}
-							<mark>WIP</mark>
-						{{ end }}
-					</span>
-					<hr>
-					<p class="body">
-						{{ .description }}
-					</p>
-				</a>
-		{{ end }}
-	</ul>
+		<ul class="horizontal-list">
+			{{ range index .Site.Data.portfolio.projects }}
+				<li class="card">
+					<a href="{{ .url }}">
+						<span class="header">
+							{{ .title }}
+							{{ if eq .wip true }}
+								<mark>WIP</mark>
+							{{ end }}
+						</span>
+						<hr>
+						<p class="body">
+							{{ .description }}
+						</p>
+					</a>
+			{{ end }}
+		</ul>
+	{{ end }}
 
 	<h2>Blog</h2>
 
