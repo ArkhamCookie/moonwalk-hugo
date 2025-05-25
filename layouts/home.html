@@ -34,6 +34,30 @@
 		{{ end }}
 	</ul>
 
+	{{ $oldProjects := .Site.Data.config.home.old_project }}
+	{{ if eq $oldProjects true }}
+		<h2>Old Projects</h2>
+
+		<ul class="horizontal-list">
+			{{ range index .Site.Data.old_projects.projects }}
+				<li class="card">
+					<a href="{{ .url }}">
+						<span class="header">
+							{{ .title }}
+							{{ if eq .new true }}
+								<mark>NEW</mark>
+							{{ end }}
+							<hr>
+							<p class="body">
+								{{ .description }}
+							</p>
+						</span>
+					</a>
+				</li>
+			{{ end }}
+		</ul>
+	{{ end }}
+
 	<footer>
 		{{ partial "footer.html" . }}
 	</footer>
