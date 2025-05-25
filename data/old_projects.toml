@@ -1,0 +1,18 @@
+[projects]
+	[projects.1]
+		title = 'Old Project 1'
+		url = 'https://example.com'
+		description = 'You can also add old projects'
+	[projects.2]
+		title = 'Old Project 2'
+		url = 'https://example.com'
+		description = 'You can mark them as new like this one'
+		new = true
+	[projects.3]
+		title = 'Old Project 3'
+		url = 'https://example.com'
+		description = 'These can be configured in `data/old-projects.toml`'
+	[projects.4]
+		title = 'Old Project 4'
+		url = 'https://example.com'
+		description = 'This can be disabled in `data/config.toml`'
