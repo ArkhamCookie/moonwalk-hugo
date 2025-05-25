@@ -4,8 +4,6 @@
 		<a href="{{ .Site.BaseURL }}">homepage</a>
 	</li>
 
-	{{/*  {{ .Site.Data.config.socials }}  */}}
-
 	{{ range index .Site.Data.config.socials }}
 		<li>
 			<a href="{{ .url }}">{{ .title }}</a>
