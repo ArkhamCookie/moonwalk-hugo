@@ -7,6 +7,9 @@ homepage = "https://github.com/ArkhamCookie/moonwalk-hugo"
 
 demosite = "https://arkhamcookie.github.io/moonwalk-hugo"
 
+tags = ["blog", "dark", "light", "portfolio"]
+features = ["blog", "dark", "light", "portfolio"]
+
 [author]
 	name = "ArkhamCookie"
 	homepage = "https://arkhamcookie.com"
