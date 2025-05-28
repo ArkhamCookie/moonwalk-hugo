@@ -1,6 +1,6 @@
 # moonwalk
 
-<!-- [![Screenshot of moonwalk demo page](https://raw.githubusercontent.com/ArkhamCookie/moonwalk/main/static/moonwalk.png)] -->
+[![moonwalk screenshots (of both modes)](https://raw.githubusercontent.com/ArkhamCookie/moonwalk/main/docs/screenshots/moonwalk-overview.png)]
 
 A [Hugo](https://gohugo.io) port of the [moonwalk theme](https://github.com/abhinavs/moonwalk).
 
