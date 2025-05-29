@@ -9,4 +9,11 @@
 			<a href="{{ .url }}">{{ .title }}</a>
 		</li>
 	{{ end }}
+
+	{{ with .OutputFormats.Get "rss" }}
+		<li>
+			<a href="{{ .Permalink }}" type="application/rss+xml">feed</a>
+		</li>
+	{{ end }}
+
 </ul>
