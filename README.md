@@ -1,4 +1,5 @@
 # moonwalk
+<!-- markdownlint-disable MD029 -->
 
 ![moonwalk screenshots (of both modes)](https://raw.githubusercontent.com/ArkhamCookie/moonwalk-hugo/refs/heads/main/images/tn.png)
 
@@ -13,6 +14,22 @@ A [Hugo](https://gohugo.io) port of the [moonwalk theme](https://github.com/abhi
 - **Responsive and Mobile Friendly**
 - **Easy to extend**
 - **Fully compatible with GitHub Pages**
+
+## Contributing
+
+### Running Locally
+
+1. Clone the repo
+
+```text
+git clone https://github.com/ArkhamCookie/moonwalk-hugo
+```
+
+2. Start the **dev** server
+
+```text
+hugo server
+```
 
 ## Attributions
 
