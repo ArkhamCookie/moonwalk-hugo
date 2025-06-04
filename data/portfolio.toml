@@ -14,7 +14,7 @@
 	[projects.4]
 		title = 'Project 4'
 		url = 'https://example.com'
-		description = 'This project uses highlight markup, configured in `data/config.toml`'
+		description = 'This project uses highlight markup, configured in `data/portfolio.toml`'
 		wip = true
 	[projects.5]
 		title = 'Project 5'
