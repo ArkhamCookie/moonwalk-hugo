@@ -3,7 +3,6 @@ languageCode = 'en-US'
 title = 'Moonwalk'
 
 theme = "moonwalk-hugo"
-themesDir = "../.."
 
 [menus]
   [[menus.main]]
