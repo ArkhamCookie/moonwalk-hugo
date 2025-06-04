@@ -72,7 +72,7 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache" \
-            --themeDir "../.."
+            --themesDir "../.."
       - name: Cache Save
         id: cache-save
         uses: actions/cache/save@v4
