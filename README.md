@@ -29,16 +29,10 @@ Bug reports and pull requests are welcome on [GitHub](https://github.com/ArkhamC
 git clone https://github.com/ArkhamCookie/moonwalk-hugo
 ```
 
-2. Move into the example site directory
+2. Start the **dev** server
 
 ```text
-cd ./exampleSite
-```
-
-3. Start the **dev** server
-
-```text
-hugo server --themesDir "../.."
+hugo server --themesDir ../.. --source exampleSite
 ```
 
 ## Attributions
