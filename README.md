@@ -25,10 +25,16 @@ A [Hugo](https://gohugo.io) port of the [moonwalk theme](https://github.com/abhi
 git clone https://github.com/ArkhamCookie/moonwalk-hugo
 ```
 
-2. Start the **dev** server
+2. Move into the example site directory
 
 ```text
-hugo server
+cd ./exampleSite
+```
+
+3. Start the **dev** server
+
+```text
+hugo server --themesDir "../.."
 ```
 
 ## Attributions
