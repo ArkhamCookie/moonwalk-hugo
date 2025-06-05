@@ -5,6 +5,7 @@
 
 A [Hugo](https://gohugo.io) port of the [moonwalk theme](https://github.com/abhinavs/moonwalk).
 Moonwalk is a fast and minimalistic blog theme with a clean layout.
+You can see Moonwalk live by visting its [demo site](https://arkhamcookie.github.io/moonwalk-hugo).
 
 ## Features
 
