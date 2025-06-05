@@ -18,6 +18,8 @@ Moonwalk is a fast and minimalistic blog theme with a clean layout.
 
 ## Contributing
 
+Bug reports and pull requests are welcome on [GitHub](https://github.com/ArkhamCookie/moonwalk-hugo)!
+
 ### Running Locally
 
 1. Clone the repo
