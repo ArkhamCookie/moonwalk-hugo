@@ -1,5 +1,4 @@
 # moonwalk
-<!-- markdownlint-disable MD029 -->
 
 ![moonwalk screenshots (of both modes)](https://raw.githubusercontent.com/ArkhamCookie/moonwalk-hugo/refs/heads/main/images/tn.png)
 
@@ -19,21 +18,8 @@ You can see Moonwalk live by visting its [demo site](https://arkhamcookie.github
 
 ## Contributing
 
-Bug reports and pull requests are welcome on [GitHub](https://github.com/ArkhamCookie/moonwalk-hugo)!
-
-### Running Locally
-
-1. Clone the repo
-
-```text
-git clone https://github.com/ArkhamCookie/moonwalk-hugo
-```
-
-2. Start the **dev** server
-
-```text
-hugo server --themesDir ../.. --source exampleSite
-```
+Bug reports, feature requests, and pull requests are welcome on [GitHub](https://github.com/ArkhamCookie/moonwalk-hugo)!
+See the [contributing documenation](docs/CONTRIBUTING.md) for more info.
 
 ## Attributions
 
