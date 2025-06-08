@@ -2,16 +2,16 @@ baseURL = 'https://arkhamcookie.github.io/moonwalk-hugo/'
 languageCode = 'en-US'
 title = 'Moonwalk'
 
-theme = "moonwalk-hugo"
+theme = 'moonwalk-hugo'
 
 [menus]
-  [[menus.main]]
-    name = 'about'
-    pageRef = '/about'
+	[[menus.main]]
+		name = 'about'
+		pageRef = '/about'
 
-  [[menus.main]]
-    name = 'blog'
-    pageRef = '/blog'
+	[[menus.main]]
+		name = 'blog'
+		pageRef = '/blog'
 
 	[[menus.main]]
 		name = 'website'
