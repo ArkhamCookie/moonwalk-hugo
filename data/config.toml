@@ -4,7 +4,7 @@ author = 'ArkhamCookie'
 	date_format = '2006-01-02'
 	portfolio = true
 	blog = true
-	old_project = true
+	old_projects = true
 
 [blog]
 	date_format = '2006-01-02'
