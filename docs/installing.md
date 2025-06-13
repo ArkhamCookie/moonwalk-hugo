@@ -121,6 +121,10 @@ hugo server -D
 
 ### Using Hugo modules (Recommanded)
 
+> [!WARNING]
+> Installing using Hugo modules is currently not working
+> See issue [#67](https://github.com/ArkhamCookie/moonwalk-hugo/issues/67)
+
 1. Install the [Go programming language](https://go.dev/doc/install)
 
 2. Initialize your own hugo mod
