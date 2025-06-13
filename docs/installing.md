@@ -118,3 +118,28 @@ git submodule add https://github.com/ArkhamCookie/moonwalk-hugo
 cd ..
 hugo server -D
 ```
+
+### Using Hugo modules (Recommanded)
+
+1. Install the [Go programming language](https://go.dev/doc/install)
+
+2. Initialize your own hugo mod
+
+```shell
+hugo mod init YOUR_OWN_GIT_REPOSITORY # doesn't HAVE to be a git repo if you aren't using git
+```
+
+3. Add moonwalk-hugo mod to your `hugo.toml`
+
+```shell
+printf "[module]
+\t[[module.imports]]
+\t\tpath='github.com/ArkhamCookie/moonwalk-hugo'
+" >> hugo.toml
+```
+
+4. Update Hugo modules
+
+```shell
+hugo mod get -u
+```
