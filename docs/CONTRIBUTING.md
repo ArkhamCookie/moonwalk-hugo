@@ -5,12 +5,12 @@
 
 1. Clone the repo
 
-```text
+```shell
 git clone https://github.com/ArkhamCookie/moonwalk-hugo
 ```
 
 2. Start the **dev** server
 
-```text
+```shell
 hugo server --themesDir ../.. --source exampleSite
 ```
