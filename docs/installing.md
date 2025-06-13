@@ -43,20 +43,7 @@ cd themes
 git clone https://github.com/ArkhamCookie/moonwalk-hugo
 ```
 
-3. Clean up unneeded files (you don't need the example site for your website)
-
-```shell
-cd moonwalk-hugo
-rm -r exampleSite
-```
-
-4. (Optional) Remove git from theme
-
-```shell
-rm -rf .git
-```
-
-5. Start up your **dev** server to make sure everything works
+3. Start up your **dev** server to make sure everything works
 
 ```shell
 cd ../..
