@@ -25,7 +25,7 @@ You can set the base title for your site can be set using `title`.
 
 ### RSS Web Master
 
-When creating your RSS feed, the `[params.author]` `email` section is used for the web master.
+When creating your RSS feed, the `[params.author]` `email` section is used for the web master info in the rss feed.
 
 ### Base Example
 
