@@ -55,10 +55,12 @@ table, th, td {
 	padding: 0.4em;
 }
 
-div.highlighter-rouge pre code, pre code.highlighter-rouge {
+pre {
 	display: block;
 	overflow-x: auto;
 	padding: 1em;
+	background-color: var(--bg-secondary);
+	border-radius: 0.5em;
 }
 
 blockquote {
