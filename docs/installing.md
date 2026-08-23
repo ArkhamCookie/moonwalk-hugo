@@ -4,6 +4,7 @@
 ## Getting Started with Hugo
 
 1. Follow [Hugo's Docs Quick Start guide](https://gohugo.io/getting-started/quick-start/) to install Hugo
+or use [Nix](https://en.wikipedia.org/wiki/Nix_(package_manager)) (see [contribing](./CONTRIBUTING.md#using-nix))
 
 2. Create a new site
 
